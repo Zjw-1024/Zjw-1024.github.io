@@ -1,18 +1,13 @@
-extends base
+extends partial/layout
 
-block title
-  title= __('archive') + ' | ' + config.title
+block site_title
+    !=  "归档 · " + config.title
+
 block content
-  .post
-    .post-archive
-      .archive-wrap
-        each posts, year in _.groupBy(page.posts.toArray(), function(p){return -p.date.format('YYYY')})
-          h2= -year
-          ul.listing
-            for post in posts
-                li
-                  a(href=url_for(post.path), title=post.title)
-                    span.date= post.date.format(theme.date_formats.archive)
-                    span.tite
-                      +title(post)              
-  include _partial/paginator.jade
+    .autopagerize_page_element: .content
+      .archive.animated.fadeInDown
+        ul.list-with-title
+          include mixins
+          +postList()
+          +make_pager()
+          //+make_pager(__('prev'), __('next'))
