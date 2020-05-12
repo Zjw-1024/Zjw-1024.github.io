@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zjw-1024.github.io/"/>
-  <updated>2020-05-11T05:22:12.712Z</updated>
+  <updated>2020-05-12T00:21:16.711Z</updated>
   <id>https://zjw-1024.github.io/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>L4 LIDARS IP</title>
+    <link href="https://zjw-1024.github.io/2020/05/12/L4-LIDARS-IP/"/>
+    <id>https://zjw-1024.github.io/2020/05/12/L4-LIDARS-IP/</id>
+    <published>2020-05-12T00:20:33.000Z</published>
+    <updated>2020-05-12T00:21:16.711Z</updated>
+    
+    <content type="html"><![CDATA[<table><thead><tr><th></th><th>LIDAR</th><th>IP</th><th>MSOP Port</th><th>DIFOP Port</th></tr></thead><tbody><tr><td>LIDAR1</td><td>VLP16_front</td><td>192.168.1.201</td><td>3201</td><td>8308</td></tr><tr><td>LIDAR2</td><td>VLP16_rear_right</td><td>192.168.1.202</td><td>2372</td><td>8312</td></tr><tr><td>LIDAR3</td><td>VLP16_rear_left</td><td>192.168.1.203</td><td>3203</td><td>8303</td></tr><tr><td>LIDAR4</td><td>rs_lidar_middle</td><td>192.168.1.204</td><td>6694</td><td>7784</td></tr><tr><td>LIDAR5</td><td>rs_lidar_left</td><td>192.168.1.205</td><td>6695</td><td>7785</td></tr><tr><td>LIDAR6</td><td>rs_lidar_right</td><td>192.168.1.206</td><td>6696</td><td>7786</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;LIDAR&lt;/th&gt;
+&lt;th&gt;IP&lt;/th&gt;
+&lt;th&gt;MSOP Port&lt;/th&gt;
+&lt;th&gt;DIFOP Port&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;LIDAR1&lt;/td&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>欧式聚类点云分割</title>
